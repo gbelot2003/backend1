@@ -26,7 +26,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'Gerardo A. Belot',
                 'email' => 'gbelot2003@hotmail.com',
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$SoewPfOWBoopOy33c1MOYuLyB1bANnBTBAptcD4CTTefOswy7eqQa',
+                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi',
                 'remember_token' => NULL,
                 'current_team_id' => 1,
                 'profile_photo_path' => 'profile-photos/oSReAQyUVu1gCgGoE7kWYClpXWAF9aq4ZXCkXXDH.jpg',

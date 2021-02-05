@@ -108,6 +108,10 @@
                                             Profile
                                         </jet-dropdown-link>
 
+                                         <jet-dropdown-link :href="route('users.create')">
+                                            Users
+                                        </jet-dropdown-link>
+
                                         <jet-dropdown-link :href="route('api-tokens.index')" v-if="$page.props.jetstream.hasApiFeatures">
                                             API Tokens
                                         </jet-dropdown-link>
@@ -163,6 +167,7 @@
                                 Profile
                             </jet-responsive-nav-link>
 
+                           
                             <jet-responsive-nav-link :href="route('api-tokens.index')" :active="route().current('api-tokens.index')" v-if="$page.props.jetstream.hasApiFeatures">
                                 API Tokens
                             </jet-responsive-nav-link>
